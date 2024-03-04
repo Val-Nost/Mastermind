@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/creer_niveau"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <TableRow>
+        <TextView
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/nom_difficultee"/>
+        <EditText
+            android:id="@+id/niveau_libelle"
+            android:layout_span="3"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/nb_tentative"/>
+        <Button
+            android:id="@+id/tentative_moins"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/moins"/>
+        <EditText
+            android:id="@+id/saisie_tentative"
+            android:inputType="number"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/tentative_plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/plus"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/couleurs_possibles"/>
+        <Button
+            android:id="@+id/possibilitee_moins"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/moins"/>
+        <EditText
+            android:id="@+id/saisie_possibilitee"
+            android:inputType="number"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/possibilitee_plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/plus"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/niveau_retour"
+            android:text="@string/retour"/>
+        <Button
+            android:id="@+id/niveau_valider"
+            android:text="@string/valider"
+            android:layout_span="3"/>
+    </TableRow>
+</TableLayout>

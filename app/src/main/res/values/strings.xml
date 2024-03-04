@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Mastermind</string>
+
+    <!-- Button -->
+    <string name="start_game">Lancer la partie</string>
+    <string name="creer_niveau">Créer un niveau</string>
+    <string name="view_score">Voir mes scores</string>
+    <string name="moins">-</string>
+    <string name="plus">+</string>
+
+    <!-- Mots clés -->
+    <string name="attention">Attention</string>
+    <string name="retour">Retour</string>
+    <string name="annuler">Anuler</string>
+    <string name="effacer">Effacer</string>
+    <string name="valider">Valider</string>
+    <string name="ok">OK</string>
+    <string name="oui">Oui</string>
+    <string name="verification">Vérification</string>
+
+
+    <!-- Warning -->
+    <string name="not_enough_color">Veuillez saisir %d couleurs</string>
+    <string name="enough_color">Vous ne pouvez pas saisir plus de couleur !</string>
+    <string name="libelle_empty">Le libelle ne doit pas être vide !</string>
+    <string name="tentative_min">Le nombre de tentative minimal est de %d</string>
+    <string name="possibilitee_min">Le nombre de couleur proposée minimal est de %d</string>
+    <string name="possibilitee_max">Le nombre de couleur proposée maximal est de %d</string>
+
+    <string name="win_title">Félicitation !</string>
+    <string name="lose_title">Dommage…</string>
+    <string name="choix_title">Choix couleur</string>
+    <string name="yu_gi_oh">A toi de jouer !</string>
+    <string name="message_deviner">Le code secret est saisie, essaie maintenant de deviner !</string>
+
+    <string name="verification_content">Êtes-vous sûr de vouloir quitter ?</string>
+    <string name="win_content">Vous avez réussi en %d tentative(s) !</string>
+    <string name="lose_content">Vous réussirez la prochaine fois…</string>
+    <string name="lose_local_content">Le nombre de tentative est écoulée… vous avez perdu</string>
+    <string name="choix_content">Veuillez saisir votre code couleur</string>
+    <string name="passage_content">Veuillez donner le téléphone à l\'adversaire</string>
+    <string name="niveau_empty">Vous devez choisir au moins un niveau, si vous n\'en avez pas, nous vous invitons à en créer</string>
+
+
+    <string name="msg_score">Voici vos scores</string>
+    <string name="nb_tentative">Nombre de tentative (0 pour infini) : </string>
+    <string name="couleurs_possibles">Couleurs possibles (2–6) :</string>
+    <string name="nom_difficultee">Nom de la difficultée : </string>
+    <string name="local_title">Au tour de : %s</string>
+
+    <!-- Réponse activity -->
+    <string name="votre_saisie">Votre saisie :</string>
+    <string name="code_secret">Code secret :</string>
+    <string name="code_adversaire">Code adversaire :</string>
+    <string name="votre_reponse">Votre réponse :</string>
+    <string name="msg_croix">Emplacement Bon ET couleur bonne</string>
+    <string name="msg_rond">Couleur bonne MAIS mauvais emplacement</string>
+    <string name="title_validation">Valider réponse</string>
+    <string name="content_validation">Êtes-vous sûr de votre réponse ?</string>
+    <string name="start_local_game">Lancer une partie en local</string>
+</resources>
